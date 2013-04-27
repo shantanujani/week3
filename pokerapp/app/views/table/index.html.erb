@@ -1,0 +1,15 @@
+<h1>Here's your poker hand</h1>
+
+
+<ul>
+  <% @hand.each do |c| %>
+  <li><%= c[1].to_s + " of " + c[0].to_s %></li>
+  <% end %>
+</ul>
+
+<!-- <ul> -->
+   <!-- <% @removes.each do |c| %> -->
+  <!-- <li><%= c[1].to_s + " of " + c[0].to_s %></li> -->
+   <!-- <% end %> -->
+<!-- </ul> -->
+

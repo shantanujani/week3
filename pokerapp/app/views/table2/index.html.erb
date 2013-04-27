@@ -1,0 +1,18 @@
+<h1>Here's your NEW poker hand</h1>
+
+<!-- <ul> -->
+  <!-- <% @hand.each do |c| %> -->
+  <!-- <li><%= "#{c[1]} of #{c[0]}" %></li> -->
+  <!-- <% end %> -->
+<!-- </ul> -->
+
+<a href="/playagain">Deal me another hand!</a>
+<p></p>
+
+
+<% @hand.each do |c| %>
+<%= image_tag(c, :height=> '15%', :width=> '15%') %>
+<% end %>
+
+
+
